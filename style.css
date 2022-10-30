@@ -1,0 +1,284 @@
+.head-text{
+    height: 703px;
+    background: #bbbbbb;
+    background-image: url(./images/stan-lee-masthead-2.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.intro{
+    display: flex;
+    padding-top: 58px;
+}
+.firstsec h1{
+    margin-bottom: 0%;
+    line-height: 72px;
+}
+.firstsec p{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 571px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.left-side h2{
+    color: black;
+    margin: 0%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    height: 54px;
+}
+.buttons button{
+    background-color: #dd0404;
+    border: none;
+    border-radius: 27px;
+    width: 199px;
+    height: 54px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.499);
+    transition: 0.5s;
+}
+button a:hover{
+    color: black;
+}
+.buttons a{
+    color: #FFFFFF;
+}
+.header-logos{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: #4A5D69;
+}
+
+
+/* Help section start here */
+
+
+.help-posts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+.help-card{
+    width: 400px;
+}
+.help-card svg{
+    margin-left: 8px;
+}
+.help-title iframe{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+.help-title h2{
+    width: 100%;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+.help-title p{
+    line-height: 30px;
+    width: 760px;
+    margin-bottom: 64px;
+}
+
+
+
+/* CTA section start here*/
+
+
+.cta-section{
+    display: flex;
+    height: 518px;
+    margin-top: 128px;
+}
+.exp-image{
+    width: 50%;
+    height: 518px;
+    background-image: url(./images/Avengers-Endgame-2019-Marvel.webp);
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    background-size: cover;
+}
+.cta-title{
+    width: 50%;
+    height: 518px;
+    background-color: #000000;
+    color: white;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.cta-right{
+    display: flex;
+    flex-direction: column;
+    padding: 128px;
+}
+.cta-title h2{
+    height: 168px;
+    width: 532px;
+}
+.cta-title .button{
+    background-color: white;
+    border: none;
+    border-radius: 31px;
+    width: 216px;
+    height: 54px;
+    display: flex;
+}
+.cta-right .button:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.499);
+    transition: 0.5s;
+    color: #dd0404;
+}
+.cta-right .button a:hover{
+    color: #dd0404;
+    transition: 0.5s;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button a{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #000000;
+}
+
+
+
+/*Video section start here*/
+
+
+.video-section{
+    height: 501px;
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+.video-left{
+    width: 550px;
+}
+.video-img img{
+    width: 620px;
+    border-radius: 20px;
+}
+.play-icon img{
+    width: 51px;
+    height: 51px;
+}
+.video-text h2{
+    text-transform: capitalize;
+}
+.video-text p{
+    width: 550px;
+    line-height: 30px;
+}
+.person{
+    display: flex;
+    width: 249px;
+    height: 80px;
+    justify-content: space-between;
+}
+.person img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.person-name h3{
+    width: 145px;
+    height: 41px;
+    line-height: 41px;
+    color: #063255;
+    margin-bottom: 0%;
+    margin-top: 46px;
+}
+.person-name p{
+    height: 31px;
+    line-height: 30.78px; 
+    color: #F58A07;
+    margin-top: 0%;
+}
+
+
+/* Latest section start here*/
+
+
+.latest-section{
+    background: #bbbbbb;
+    margin-top: 128px;
+}
+.latest-section .container{
+    padding-bottom: 96px;
+}
+.latest-card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -18px;
+}
+.latest-head h2{
+    display: flex;
+    text-transform: capitalize;
+    padding-top: 96px;
+    margin-bottom: 64px;
+}
+.card{
+    height: 507px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: #9c9c9c59;
+    transition: 0.5s;
+}
+.card img{
+    border-radius: 20px 20px 0px 0px;
+    height: 230px;
+    width: 100%;
+}
+.card .blog{
+    width: 336px;
+    margin: auto;
+}
+.blog{
+    padding: 32px 0 32px 0;
+    margin: 0%;
+}
+.blog h3{
+    height: 72px;
+    line-height: 36px;
+    color: #0D1317;
+    margin: 0;
+}
+.blog p{
+    height: 84px;
+    font-size: 16px;
+}
+.blog a{
+    width: 90px;
+    height: 17px;
+    line-height: 17.04px;
+    padding-right: 8px;
+}
+

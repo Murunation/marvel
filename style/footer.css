@@ -1,0 +1,153 @@
+.footer-section{
+    background: #202020;
+    height: 463px;
+}
+.footer-section .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.footer1 .marvel-logo{
+    width: 100px;
+}
+.footer-section h4{
+    margin-top: 0%;
+}
+.footer-left{
+    width: 30%;
+    height: 250px;
+    display: flex;
+}
+.footer1 h2{
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+    margin: 32px 0;
+}
+.footer-icon ul{
+    display: flex;
+    width: 136px;
+    justify-content: space-between;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+}
+.company-nav{
+    height: 195px;
+    
+}
+.company-nav a{
+    color: #FFFFFF;
+}
+.company-nav h4{
+    margin-bottom: 24px;
+}
+.company-nav ul{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 195px;
+    list-style: none;
+}
+.company-nav ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+.footer-main{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.connect{
+    color: #FFFFFF;
+}
+.connect ul{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+.connect li{
+    margin-bottom: 16px;
+}
+.footer-right{
+    width: 30%;
+}
+.footer-right input{
+    width: 342px;
+    height: 54px;
+    border-radius: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    font-family: 'Inter';
+    padding-left: 31px;
+
+}
+.footer-right .button{
+    width: 156px;
+    height: 54px;
+    background: #dd0404;
+    border-radius: 31px;
+    margin-top: 16px;
+}
+.footer-right .button:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.499);
+    transition: 0.5s;
+}
+.footer-right .button a:hover{
+    color: #000000;
+}
+.footer-right .button a{
+    color: #FFFFFF;
+}
+.footer-bottom p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0%;
+}
+.bottom-right{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    width: 298px;
+}
+.shape-left{
+    width: 53px;
+    height: 144px;
+    background: #dd0404;
+    transform: rotate(180deg);
+    position: absolute;
+    margin-top: 319px;
+    border-radius: 0 0 0 10px;
+}
+.shape-right{
+    width: 53px;
+    height: 287px;
+    background: #dd0404;
+    border-radius: 20px 0px 0px 20px;
+    position: absolute;
+    right: 0px;
+    margin-top: 38px;
+}
+.footer-bottom{
+    padding-top: 64px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
