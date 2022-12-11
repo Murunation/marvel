@@ -191,7 +191,8 @@ button a:hover{
 }
 .video-text p{
     width: 550px;
-    line-height: 30px;
+    line-height: 10px;
+    font-size: 10px;
 }
 .person{
     display: flex;
