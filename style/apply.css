@@ -1,0 +1,111 @@
+h1{
+    line-height: 72px;
+    color: #1D3444;
+    font-weight: 600;
+    margin-bottom: 64px;
+}
+.job-detail{
+    margin: 122px 0px 64px 0px;
+}
+.job-left{
+    width: 50%;
+}
+.job-right{
+    width: 27%;
+}
+.job-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* career details section start here*/
+
+.career-details{
+    background-color: #C1E4FF4D;
+    height: 441px;
+    margin-bottom: 128px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.details-require{
+    width: 184px;
+    height: 158px;
+    margin-top: 64px;
+}
+.details-require h3{
+    line-height: 30px;
+    color: #0D1317;
+    margin: 40px 0px;
+}
+.details-info{
+    width: 842px;
+    height: 308px;
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+.details-info p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.details-require .head-h3{
+    margin: 0%;
+    color: #F58A07;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+/* Apply section start here*/
+ 
+
+.small-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inputs input{
+    width: 48%;
+    height: 54px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;  
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Inter';
+    color: #9C9C9C;  
+    padding-left: 32px;
+    margin-bottom: 24px;
+}
+.italic{
+    font-style: italic;
+}
+.inputs .big-input{
+    width: 100%;
+    height: 215px;
+    padding-bottom: 150px;
+}
+.apply-button{
+    width: 119px;
+    height: 54px;
+    border-radius: 31px;
+    background: #F58A07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.apply-button a{
+    color: #FFFFFF;
+}
+.apply-button:hover{
+    background-color: #FFFFFF;
+    color: #F58A07;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.499);
+    transition: 0.5s;
+}
+.apply-button a:hover{
+    color: #F58A07;
+}
